@@ -1,0 +1,78 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+   
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image:url("90S-Zoom-background-1024x576.jpg") ;
+  }
+
+
+header {
+    background-color: rgb(196, 121, 247);
+    display: flex;
+    justify-content: space-between;
+    
+}    
+
+
+   
+/* #questionbox {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+    color:black;
+    background-color: rgb(196, 121, 247);
+    width: 65%;
+    font-size: 55px;
+    text-align: center;
+    margin-top:5px; 
+ 
+}  */
+
+p {
+    font-size: 30px;
+}
+
+
+/* #timebox {
+    float: center;
+}
+
+#score {
+    float: center; */
+  
+  
+
+
+
+.score {
+    width: 600px; 
+    display: inline-block;
+    height: 400px;
+    font-size: 20px;
+}
+#questionbox {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    background-color: rgb(196, 121, 247);
+ 
+  }
+
+
+button {
+    background-color: hsl(332, 77%, 74%);
+    color: white;
+    border-radius: 15px;
+    height: 70px;
+    font-size: 15px;
+    width: 150px;
+}
+
+
+
