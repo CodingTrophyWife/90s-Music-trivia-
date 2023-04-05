@@ -11,7 +11,7 @@ Discription:
 
 If you didnt get the pleasure of growing up in the 90's I feel sorry for you!
 If you did get to be part of the coolest generation ever this quiz is for you! Takes you back to the days before the internet. The days where you had to listen to the radio to hear your favorite song and hope that you push the record button fast enough on your tape cassette so that you could record your favorite song so that you could listen to it over and over. 
-This game is 26 questions! You have 90 seconds to answer all the questions, but dont get one wrong because if you do, 5 seconds will be taken off your timer! 
+This game is 26 questions! You have 3 minutes to answer all the questions, but dont get one wrong because if you do, 5 seconds will be taken off your timer! 
 Good Luck! 
 
 Shout Out's (Contributing):
