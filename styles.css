@@ -1,78 +1,119 @@
+
+/*whole page */
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    max-width: 100%;
-   
+    font-family:'Special Elite', cursive; 
 }
-
-
+/* this is for the home page title  */
+h2 {
+    font-family: 'Bungee Shade', cursive;
+    color: black;
+    font-size: 50px;
+}
+/* body...dont know what more i can say */
 body {
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    background-image:url("90S-Zoom-background-1024x576.jpg") ;
-  }
-
-
+    background-image:url("90S-Zoom-background-1024x576.jpg");
+}
+/* ummm the header...again i dont know how i could be more clear */
 header {
     background-color: rgb(196, 121, 247);
-    display: flex;
-    justify-content: space-between;
-    
-}    
-
-
-   
-/* #questionbox {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+    justify-content: space-around; 
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    display:flexbox;
+}  
+/* ok so question box is where the questions go, inputscore is the initials "page", and highscores is the high score "page" */
+#questionbox, #inputScore, #highScores {
     color:black;
     background-color: rgb(196, 121, 247);
-    width: 65%;
+    font-size: 45px;
+    text-align: center;
+    display: flexbox;
+    margin-left: 400px;
+    margin-right: 400px; 
+} 
+/* this is the discription of the game on the welcome page */
+p {
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/* just a start button */
+#start {
+    margin-bottom: 20px;
+}
+/* the choices buttons for the questions */
+.choices {
+    color:black;
+    background-color: rgb(196, 121, 247);
     font-size: 55px;
     text-align: center;
-    margin-top:5px; 
- 
-}  */
-
-p {
-    font-size: 30px;
-}
-
-
-/* #timebox {
-    float: center;
-}
-
-#score {
-    float: center; */
-  
-  
-
-
-
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+} 
+/* the score */
 .score {
     width: 600px; 
     display: inline-block;
-    height: 400px;
-    font-size: 20px;
+    font-size: larger;
 }
-#questionbox {
-    text-align: center;
-    font-size: 60px;
-    margin-top: 0px;
-    background-color: rgb(196, 121, 247);
- 
-  }
-
-
+/* this is the cowagunga and too slow joe fonts and size */
+h4 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 65px;
+}
+/* i think this one is the buttons but im not quite sure */
 button {
-    background-color: hsl(332, 77%, 74%);
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 15px;
-    height: 70px;
-    font-size: 15px;
-    width: 150px;
+    font-size: 20px;
+    justify-content: space-around;
+    margin-top: 18px;
+    align-items: center;
+    border-radius: 10%;
 }
 
+/*tablet*/
+@media screen and (max-width:992px) {
+    h2 {
+        font-size: 50px;     
+}
 
+header {
+    margin-left: 10px;
+    margin-right: 10px; 
+    border-radius: 5%;
+}
 
+#questionbox, #inputScore, #highScores {
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 30px;
+     border-radius: 5%;
+}
+.choices {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5%;
+}
+p {
+   font-size: 20px; 
+}
+}
+
+/*phone*/
+@media screen and (max-width:768px) {
+    h2 {
+        font-size: 35px;
+}
+h4 {
+    font-size: 35px;
+}
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
