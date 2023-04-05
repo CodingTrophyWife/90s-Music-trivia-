@@ -260,7 +260,7 @@ const  question = [
     
 }
 ]
-const startGameHtml = "<h2>90's Music Trivia</h2><p >The '90s produced some fantastic songs, but how well can you recognise the hits of the decade, when all you have is a 90 seconds! Don't get one wrong or your time will subtract by 5 seconds! When you are ready click the start button to start!</p><button id='start'>start</button>";
+const startGameHtml = "<h2>90's Music Trivia</h2><p >The '90s produced some fantastic songs, but how well can you recognise the hits of the decade, when all you have is a 3 minutes! Don't get one wrong or your time will subtract by 5 seconds! When you are ready click the start button to start!</p><button id='start'>start</button>";
 const questionBox = document.getElementById("questionbox");
 const answerA = document.getElementById("answerA");
 const answerB = document.getElementById("answerB");
@@ -331,7 +331,7 @@ function answerButtonClicked() {
 }
 // pretty self explanatory 
 function startGame() {
-    timeCounter = 90;
+    timeCounter = 180;
 
     timeBox.innerText = timeCounter;
     score.innerText = correctAnswers + "/" + wrongAnswers;
